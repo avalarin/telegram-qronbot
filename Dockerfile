@@ -13,4 +13,5 @@ RUN npm run build
 VOLUME /opt/app/src
 VOLUME /opt/app/config
 
+EXPOSE 8080
 CMD node dist/app.js
