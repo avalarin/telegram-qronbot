@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - ./src:/opt/app/src
+      - ./config:/opt/app/config
+    command: npm run watch
+  mongo:
+    image: "mongo"
+    ports:
+      - "27017:27017"

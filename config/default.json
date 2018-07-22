@@ -1,0 +1,18 @@
+{
+  "telegram": {
+    "token": ""
+  },
+  "mongo": {
+    "host": "mongodb://mongo/qronbot"
+  },
+  "scheduler": {
+    "periodSeconds": 10,
+    "schedulingRangeDays": 15,
+    "schedulingMaxInstances": 1000
+  },
+  "heartbeat": {
+    "periodSeconds": 5,
+    "killPeriodSeconds": 5,
+    "maxUnreportedSeconds": 10
+  }
+}
